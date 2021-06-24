@@ -1,9 +1,14 @@
-# Star Wars 03
+# VUE JS Workshop
 
 ## File
 
-* `server3.js`
+* `server.js`
 
-## Instructions
+## Installation
 
-* Examine the code flagged in the comments. Explain to those around you what it does and how it works. Be sure to create test cases that confirm your hypothesis.
+`npm install`
+
+`npm run seed`
+
+`npx sequelize db:create`
+
