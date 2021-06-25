@@ -10,13 +10,15 @@
     "sequelize": "^6.6.2"
   },
   "devDependencies": {
+    "forever": "^4.0.1",
     "nodemon": "^2.0.4",
     "sequelize-cli": "^6.2.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds"
+    "start": "node server",
+    "watch": "nodemon server",
+    "seed": "node seeds",
+    "forever": "forever start server"
   },
   "author": "",
   "license": "ISC"
