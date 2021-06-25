@@ -15,10 +15,10 @@
     "sequelize-cli": "^6.2.0"
   },
   "scripts": {
-    "start": "node server",
-    "watch": "nodemon server",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
     "seed": "node seeds",
-    "forever": "forever start server"
+    "forever": "forever start server.js"
   },
   "author": "",
   "license": "ISC"
