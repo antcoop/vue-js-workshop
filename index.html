@@ -38,7 +38,7 @@
             v-for="employee in employees" 
             v-bind:key="employee.id" 
             v-bind:employee="employee"
-            v-if="/n/gi.test(employee.firstName)"
+            v-if="employee.id >=6"
           >
             <th scope="row">{{ employee.id }}</th>
             <td>{{ employee.firstName }}</td>

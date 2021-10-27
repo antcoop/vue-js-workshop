@@ -1,3 +1,5 @@
+const db = require('../models');
+
 module.exports = {
   getAllEmployees: async (req, res) => {
     const employees = await db.Employee.findAll({});
